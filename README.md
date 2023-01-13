@@ -1,7 +1,17 @@
 # Kena3D
 
-Kena3D is a set of Python scripts for the analysis of the 3D-CT data of a kenaf pulvinus.
+## A set of Python scripts for the analysis of the 3D-CT data of a kenaf pulvinus.
 
 To run hdf4_resize_rotation_hdf5.py, you can use the Docker Image "miyukitnakata/python3h5py".
 
-$ docker push miyukitnakata/python3h5py:latest
+### Docker
+
+```bash
+docker pull miyukitnakata/python3h5py:latest
+```
+
+### Singularity
+
+```bash
+singularity pull docker://miyukitnakata/python3h5py:latest
+```
